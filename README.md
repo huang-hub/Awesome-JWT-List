@@ -1,50 +1,145 @@
 # Awesome JWT List
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 精选的 JWT (JSON Web Token) 相关库、工具和资源列表。
 
 A curated list of JWT (JSON Web Token) related libraries, tools and resources.
 
-English | 中文
+[English](#english) | [中文](#中文)
 
 # English
+
 ## Table of Contents
-- Libraries and Frameworks
-  - C/C++
-  - PHP
-  - Python
-  - Rust
-  - Swift
-  - TypeScript/JavaScript
-  - Scala
-- Example Applications
+
+- [Libraries and Frameworks](#libraries-and-frameworks)
+  - [C/C++](#cc)
+  - [PHP](#php)
+  - [Python](#python)
+  - [Rust](#rust)
+  - [Swift](#swift)
+  - [TypeScript/JavaScript](#typescriptjavascript)
+  - [Scala](#scala)
+- [Example Applications](#example-applications)
+
 ## Libraries and Frameworks
+
 ### C/C++
-- libjwt - The C JSON Web Token Library with JWK and JWKS support.
-- rhonabwy - JOSE (Javascript Object Signing and Encryption) library supporting JWK, JWKS, JWS, JWE and JWT.
+
+- [libjwt](https://github.com/benmcollins/libjwt) - The C JSON Web Token Library with JWK and JWKS support.
+- [rhonabwy](https://github.com/babelouest/rhonabwy) - JOSE (Javascript Object Signing and Encryption) library supporting JWK, JWKS, JWS, JWE and JWT.
+
 ### PHP
-- apple-sign-in-php-sdk - PHP library to verify and validate Apple IdentityToken and authenticate users with Apple ID.
-- firebase-jwt - A framework-agnostic PHP library for working with Firebase JSON Web Tokens.
-- jwt - PHP7 library for JSON Web Tokens (JWT).
+
+- [apple-sign-in-php-sdk](https://github.com/AzimoLabs/apple-sign-in-php-sdk) - PHP library to verify and validate Apple IdentityToken and authenticate users with Apple ID.
+- [firebase-jwt](https://github.com/beste/firebase-jwt) - A framework-agnostic PHP library for working with Firebase JSON Web Tokens.
+- [jwt](https://github.com/bitnbytesio/jwt) - PHP7 library for JSON Web Tokens (JWT).
+
 ### Python
-- jwt.py - Simple JWT library for Python with HS256 signature support using JWS.
-- gcp-jwt - Simple library to create and sign JWT tokens using Google Cloud Platform KMS.
-- badsecrets - A library for detecting known secrets across multiple web frameworks.
+
+- [jwt.py](https://github.com/barczynsky/jwt.py) - Simple JWT library for Python with HS256 signature support using JWS.
+- [gcp-jwt](https://github.com/BinarSkugga/gcp-jwt) - Simple library to create and sign JWT tokens using Google Cloud Platform KMS.
+- [badsecrets](https://github.com/blacklanternsecurity/badsecrets) - A library for detecting known secrets across multiple web frameworks.
+
 ### Rust
-- bbjwt - JWT validation library.
+
+- [bbjwt](https://github.com/basebox-tech/bbjwt) - JWT validation library.
+
 ### Swift
-- jose-swift - A comprehensive Swift library for JOSE standards implementation, supporting JWA, JWK, JWE, JWS and JWT with robust encryption and signing capabilities.
+
+- [jose-swift](https://github.com/beatt83/jose-swift) - A comprehensive Swift library for JOSE standards implementation, supporting JWA, JWK, JWE, JWS and JWT with robust encryption and signing capabilities.
+
 ### TypeScript/JavaScript
-- nomatic-jwt - Library for encoding, decoding, and verifying JSON Web Tokens (JWTs).
-- nexauth - A simple JWT-based authentication library for Next.js framework.
-- vinyl-auth - A simple, short and vanilla javascript compatible token authentication library.
+
+- [nomatic-jwt](https://github.com/bdfoster/nomatic-jwt) - Library for encoding, decoding, and verifying JSON Web Tokens (JWTs).
+- [nexauth](https://github.com/betagouv/nexauth) - A simple JWT-based authentication library for Next.js framework.
+- [vinyl-auth](https://github.com/bladepop/vinyl-auth) - A simple, short and vanilla javascript compatible token authentication library.
+
 ### Scala
-- jose - Extensible JOSE library for Scala.
+
+- [jose](https://github.com/blackdoor/jose) - Extensible JOSE library for Scala.
+
 ## Example Applications
-- MoviezAPI - Movie library management platform RESTful API using Flask-RESTful, Microservice Architecture, SQLAlchemy, Docker, Gunicorn and JWT.
-- Ecommerce - Full-stack e-commerce app with user authentication, authorization, and admin-managed product uploads.
-- zobs - Job portal website based on MERN stack with authentication functionality and JWT.
-- sirius - Full stack application with React.js and Express + MySQL featuring tokenized encryption.
+
+- [MoviezAPI](https://github.com/benyanko/MoviezAPI) - Movie library management platform RESTful API using Flask-RESTful, Microservice Architecture, SQLAlchemy, Docker, Gunicorn and JWT.
+- [Ecommerce](https://github.com/Ayan-Munshi/Ecommerce) - Full-stack e-commerce app with user authentication, authorization, and admin-managed product uploads.
+- [zobs](https://github.com/azzayshakya/zobs) - Job portal website based on MERN stack with authentication functionality and JWT.
+- [sirius](https://github.com/biewwl/sirius) - Full stack application with React.js and Express + MySQL featuring tokenized encryption.
+
 ## Contributing
+
 Contributions via Pull Requests are welcome!
 
 ## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
 To the extent possible under law, this work has been waived of all copyright and related or neighboring rights.
+
+# 中文
+
+## 目录
+
+- [库和框架](#库和框架)
+  - [C/C++](#cc)
+  - [PHP](#php)
+  - [Python](#python)
+  - [Rust](#rust)
+  - [Swift](#swift)
+  - [TypeScript/JavaScript](#typescriptjavascript)
+  - [Scala](#scala)
+- [应用示例](#应用示例)
+
+## 库和框架
+
+### C/C++
+
+- [libjwt](https://github.com/benmcollins/libjwt) - C 语言的 JSON Web Token 库，支持 JWK 和 JWKS。
+- [rhonabwy](https://github.com/babelouest/rhonabwy) - JOSE (Javascript Object Signing and Encryption) 库，支持 JWK、JWKS、JWS、JWE 和 JWT。
+
+### PHP
+
+- [apple-sign-in-php-sdk](https://github.com/AzimoLabs/apple-sign-in-php-sdk) - PHP 库用于验证和验证 Apple IdentityToken 并使用 Apple ID 进行身份验证。
+- [firebase-jwt](https://github.com/beste/firebase-jwt) - 用于处理 Firebase JSON Web Tokens 的框架无关的 PHP 库。
+- [jwt](https://github.com/bitnbytesio/jwt) - PHP7 的 JSON Web Tokens (JWT) 库。
+
+### Python
+
+- [jwt.py](https://github.com/barczynsky/jwt.py) - 简单的 Python JWT 库，支持使用 JWS 的 HS256 签名。
+- [gcp-jwt](https://github.com/BinarSkugga/gcp-jwt) - 使用 Google Cloud Platform KMS 创建和签名 JWT 令牌的简单库。
+- [badsecrets](https://github.com/blacklanternsecurity/badsecrets) - 用于检测多个 Web 框架中已知密钥的库。
+
+### Rust
+
+- [bbjwt](https://github.com/basebox-tech/bbjwt) - JWT 验证库。
+
+### Swift
+
+- [jose-swift](https://github.com/beatt83/jose-swift) - 全面的 Swift JOSE 标准实现库，支持 JWA、JWK、JWE、JWS 和 JWT，具有强大的加密和签名功能。
+
+### TypeScript/JavaScript
+
+- [nomatic-jwt](https://github.com/bdfoster/nomatic-jwt) - 用于编码、解码和验证 JSON Web Tokens (JWTs) 的库。
+- [nexauth](https://github.com/betagouv/nexauth) - Next.js 框架的简单 JWT 认证库。
+- [vinyl-auth](https://github.com/bladepop/vinyl-auth) - 简单、轻量级的原生 JavaScript 兼容的令牌认证库。
+
+### Scala
+
+- [jose](https://github.com/blackdoor/jose) - 可扩展的 Scala JOSE 库。
+
+## 应用示例
+
+- [MoviezAPI](https://github.com/benyanko/MoviezAPI) - 使用 Flask-RESTful、微服务架构、SQLAlchemy、Docker、Gunicorn 和 JWT 的电影库管理平台 RESTful API。
+- [Ecommerce](https://github.com/Ayan-Munshi/Ecommerce) - 具有用户认证、授权和管理员管理产品上传功能的全栈电商应用。
+- [zobs](https://github.com/azzayshakya/zobs) - 基于 MERN 技术栈的求职门户网站，具有认证功能和 JWT。
+- [sirius](https://github.com/biewwl/sirius) - 使用 React.js 和 Express + MySQL 的全栈应用，具有令牌加密功能。
+
+## 贡献
+
+欢迎提交 Pull Request 来帮助完善这个列表！
+
+## 许可证
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+在法律允许的范围内，本作品已放弃所有版权及相关或邻近的权利。
